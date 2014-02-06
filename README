@@ -1,6 +1,17 @@
-=Cuby
+# Cuby
 
-1.75mm filament direct drive extruder for Prusa i3 variants
+A GPLv3 Licensed 1.75mm filament direct drive extruder for Prusa i3
+variants. It mounts a J-head Hotend and a 40mm fan directly.
+
+STL files are available in the output directory. The source code is written
+in CrystalScad. You will need Ruby 1.9.3+ and the gem CrystalScad to
+generate the OpenScad code. 
+
+
+Thanks to daid for the name!
+
+
+
 
 
 
