@@ -1,0 +1,8 @@
+watch( 'extruder.rb' )  {|md|
+   system("./extruder.rb")
+}
+
+watch( 'lib/(.*)\.rb' )  {|md|
+   system("./extruder.rb")
+}
+
